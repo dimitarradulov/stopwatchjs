@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <a href="index.html">
+        <img src="img/logo.png" class="logo" alt="Logo" />
+      </a>
+    </div>
+
+    <div class="vh">
+      <section class="stopwatch">
+        <div class="numbers">00:00:00</div>
+        <ul class="buttons">
+          <li>
+            <button class="btn reset">RESET</button>
+          </li>
+          <li>
+            <button class="btn btn-lap">LAP</button>
+          </li>
+          <li>
+            <button class="btn btn-start start">START</button>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="lap-box">
+      <ul class="lap hidden"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

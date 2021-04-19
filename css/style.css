@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Kameron', serif;
+  font-size: 1.8rem;
+  background-color: #0e0e0e;
+}
+
+.vh {
+  height: 65vh;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #57a3cf;
+}
+
+.numbers {
+  font-size: 14.4rem;
+  max-width: 650px;
+}
+
+.buttons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #0e0e0e;
+  padding: 1rem 3.6rem;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-start,
+.btn-lap {
+  margin-left: 1.5rem;
+}
+
+.btn-start {
+  background-color: #57a3cf;
+}
+
+.lap-box {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.lap {
+  color: #fff;
+  max-width: 650px;
+  font-size: 3rem;
+  list-style: none;
+  flex-basis: 100%;
+}
+
+.lap li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden {
+  display: none;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 665px) {
+  .numbers {
+    font-size: 8rem;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .btn {
+    padding: 0.75rem 3rem;
+  }
+
+  .lap {
+    max-width: 335px;
+  }
+
+  .vh {
+    height: 55vh;
+  }
+
+  .lap-box {
+    margin-top: -40px;
+  }
+}
