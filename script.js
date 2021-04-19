@@ -55,6 +55,8 @@ document.querySelector('.reset').addEventListener('click', function () {
   ).textContent = `${hours}:${minutes}:${seconds}`;
   document.querySelector('.start').textContent = 'START';
   isStopwatchRunning = false;
+  document.querySelector('.lap').classList.add('hidden');
+  document.querySelector('.lap').textContent = '';
 });
 
 document.querySelector('.btn-lap').addEventListener('click', function () {
