@@ -57,6 +57,7 @@ document.querySelector('.reset').addEventListener('click', function () {
   isStopwatchRunning = false;
   document.querySelector('.lap').classList.add('hidden');
   document.querySelector('.lap').textContent = '';
+  lapCounter = 0;
 });
 
 document.querySelector('.btn-lap').addEventListener('click', function () {
