@@ -1,2 +1,2 @@
-# stopwatchjs
+# Stopwatch built with vanilla JS
  
